@@ -1,0 +1,578 @@
+/***************************************************/
+body{
+	margin:0;
+	padding: 0;
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+/***************************************************/
+#pagina {
+	width: 1200px;
+	height: 900px;
+	margin: auto;
+	padding: auto;
+}
+
+#pagina-bgtop {
+	/*padding: 25px 0px;*/
+/*	margin: 25px 25px 25px 25px; */
+	padding-top:0px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+	
+}
+/***************************************************/
+#con{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	float: left;
+	overflow: hidden;
+	width: 1150px;
+	height: 850px; 
+	padding: 0;
+}
+/***************************************************/
+.navegacion1 {
+
+	width: 1200px;
+	height: 45px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #d4a402;
+}
+
+.navegacion1 ul {
+	margin: 0;
+	padding: 0px 0px 0px 25px;
+	list-style: none;
+	line-height: normal;
+}
+
+.navegacion1 li {
+	float: left;
+	height: 45px;
+}
+
+.navegacion1 a {
+	display: block;
+	margin-right: 10px;
+	padding: 10px 30px 7px 30px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+}
+
+navegacion1 .current_page_item a {
+	padding-left:0;
+	overflow: hidden;
+}
+
+navegacion1 a:hover {
+	text-decoration: underline;
+}
+/***************************************************/
+/***************************************************/
+.navegacionlecturas {
+
+	width: 1200px;
+	height: 45px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #e16a12;
+}
+
+.navegacionlecturas ul {
+	margin: 0;
+	padding: 0px 0px 0px 25px;
+	list-style: none;
+	line-height: normal;
+}
+
+.navegacionlecturas li {
+	float: left;
+	height: 45px;
+}
+
+.navegacionlecturas a {
+	display: block;
+	margin-right: 10px;
+	padding: 10px 30px 7px 30px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+}
+
+navegacionlecturas .current_page_item a {
+	padding-left:0;
+	overflow: hidden;
+}
+
+navegacionlecturas a:hover {
+	text-decoration: underline;
+}
+/***************************************************/
+/***************************************************/
+.navegacionmultimedia {
+
+	width: 1200px;
+	height: 45px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #617e07;
+}
+
+.navegacionmultimedia ul {
+	margin: 0;
+	padding: 0px 0px 0px 25px;
+	list-style: none;
+	line-height: normal;
+}
+
+.navegacionmultimedia li {
+	float: left;
+	height: 45px;
+}
+
+.navegacionmultimedia a {
+	display: block;
+	margin-right: 10px;
+	padding: 10px 30px 7px 30px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+}
+
+.navegacionmultimedia .current_page_item a {
+	padding-left:0;
+	overflow: hidden;
+}
+
+.navegacionmultimedia a:hover {
+	text-decoration: underline;
+}
+/***************************************************/
+/***************************************************/
+.navegacionactividades {
+
+	width: 1200px;
+	height: 45px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #333;
+}
+
+.navegacionactividades ul {
+	margin: 0;
+	padding: 0px 0px 0px 25px;
+	list-style: none;
+	line-height: normal;
+}
+
+.navegacionactividades li {
+	float: left;
+	height: 45px;
+}
+
+.navegacionactividades a {
+	display: block;
+	margin-right: 10px;
+	padding: 10px 30px 7px 30px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+}
+
+.navegacionactividades .current_page_item a {
+	padding-left:0;
+	overflow: hidden;
+}
+
+.navegacionactividades a:hover {
+	text-decoration: underline;
+}
+/***************************************************/
+/***************************************************/
+.navegacionautores {
+
+	width: 1200px;
+	height: 45px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #1e8b8a;
+}
+
+.navegacionautores ul {
+	margin: 0;
+	padding: 0px 0px 0px 25px;
+	list-style: none;
+	line-height: normal;
+}
+
+.navegacionautores li {
+	float: left;
+	height: 45px;
+}
+
+.navegacionautores a {
+	display: block;
+	margin-right: 10px;
+	padding: 10px 30px 7px 30px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+}
+
+.navegacionautores .current_page_item a {
+	padding-left:0;
+	overflow: hidden;
+}
+
+.navegacionautores a:hover {
+	text-decoration: underline;
+}
+/***************************************************/
+#footer{
+	top: 1px; 
+	position: relative;
+	width: 1150px;
+	height: 80px;
+	background-color: #333;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 20px;
+	line-height: normal;
+	font-size: 9px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#footer a {
+	color: #ffffff;
+}
+/***************************************************/
+.c	
+	{
+	position: relative;
+
+	/*nos posicionamos en el centro del navegador*/
+	top:-749px;
+	left:256px;
+
+	/*determinamos una anchura*/
+	width:650px;
+
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:0px;
+
+
+	/*determinamos una altura*/
+	height:450px;
+
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:0px;
+	
+
+	border:1px solid #617e07;
+	padding:5px;
+	overflow: hidden;
+	
+	}
+/***************************************************/
+.cob	
+	{
+	position: relative;
+
+	/*nos posicionamos en el centro del navegador*/
+	top:-720px;
+	left:256px;
+
+	/*determinamos una anchura*/
+	width:650px;
+
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:0px;
+
+	/*determinamos una altura*/
+	height:336px;
+
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:0px;
+	
+
+	border:2px solid #617e07;
+	padding:5px;
+	overflow: hidden;
+	
+	}
+/***************************************************/
+#contenedor{
+width:1150px;
+height:100px;
+background-color: #333;
+	margin: auto;
+	padding: auto;
+	bottom:20px; 
+	
+}	
+/***************************************************/
+.c01	
+	{
+	position: relative;
+
+	/*nos posicionamos en el centro del navegador*/
+	top:6px;
+	left:255px;
+
+	/*determinamos una anchura*/
+	width:75px;
+
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:0px;
+
+	/*determinamos una altura*/
+	height:75px;
+
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:0px;
+	
+
+	border:1px solid #d4a402;
+	padding:5px;
+	overflow: hidden;
+	
+	}
+/***************************************************/
+.c02
+	{
+	position: relative;
+
+	/*nos posicionamos en el centro del navegador*/
+	top:-81px;
+	left:454px;
+
+	/*determinamos una anchura*/
+	width:75px;
+
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:0px;
+
+	/*determinamos una altura*/
+	height:75px;
+
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:0px;
+
+	border:1px solid #d4a402;
+	padding:5px;
+	overflow: hidden;
+	}
+/***************************************************/
+.c03
+	{
+	position: relative;
+
+	/*nos posicionamos en el centro del navegador*/
+	top:-168px;
+	left:647px;
+
+	/*determinamos una anchura*/
+	width:75px;
+
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:0px;
+
+	/*determinamos una altura*/
+	height:75px;
+
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:0px;
+
+	border:1px solid #d4a402;
+	padding:5px;
+	overflow: hidden;
+	}
+/***************************************************/
+.c04
+	{
+	position: relative;
+
+	/*nos posicionamos en el centro del navegador*/
+	top:-256px;
+	left:832px;
+
+	/*determinamos una anchura*/
+	width:75px;
+
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:0px;
+
+	/*determinamos una altura*/
+	height:75px;
+
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:0px;
+
+	border:1px solid #d4a402;
+	padding:5px;
+	overflow: hidden;
+	}
+/***************************************************/
+.c05	
+	{
+	position: relative;
+
+	/*nos posicionamos en el centro del navegador*/
+	top:-1561px;
+	left:937px;
+
+	/*determinamos una anchura*/
+	width:200px;
+
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:0px;
+
+	/*determinamos una altura*/
+	height:829px;
+
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:0px;
+	
+
+	border:1px solid #617e07;
+	padding:5px;
+	overflow: hidden;
+	
+	}
+/***************************************************/
+.l1c05	
+	{
+	position: relative;
+
+	/*nos posicionamos en el centro del navegador*/
+	top:-327px;
+	left:300px;
+
+	/*determinamos una anchura*/
+	width:800px;
+
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:0px;
+
+	/*determinamos una altura*/
+	height:829px;
+
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:0px;
+	
+
+	border:1px solid #617e07;
+	padding:5px;
+	overflow: hidden;
+	
+	}
+	
+/***************************************************/
+.m1c05	
+	{
+	position: relative;
+
+	/*nos posicionamos en el centro del navegador*/
+	top:-144px;
+	left:300px;
+
+	/*determinamos una anchura*/
+	width:800px;
+
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:0px;
+
+	/*determinamos una altura*/
+	height:829px;
+
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:0px;
+	
+
+	border:1px solid #617e07;
+	padding:5px;
+	overflow: hidden;
+	
+	}
+/***************************************************/
+.ac05	
+	{
+	position: relative;
+
+	/*nos posicionamos en el centro del navegador*/
+	top:-260px;
+	left:560px;
+
+	/*determinamos una anchura*/
+	width:205px;
+
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:0px;
+
+	/*determinamos una altura*/
+	height:205px;
+
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:0px;
+	
+
+	border:1px solid #617e07;
+	padding:5px;
+	overflow: hidden;
+	
+	}
+/***************************************************/
+.t	
+	{
+	position: relative;
+
+	/*nos posicionamos en el centro del navegador*/
+	top:10px;
+	left:0px;
+
+	/*determinamos una anchura*/
+	width:189px;
+
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:0px;
+
+	/*determinamos una altura*/
+	height:235px;
+
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:0px;
+	
+
+	border:1px solid #617e07;
+	padding:5px;
+	overflow: hidden;
+	
+	}
